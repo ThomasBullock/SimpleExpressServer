@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+    head
+        title= `Simple Server`
+        link(rel='stylesheet', type='text/css' href='/styles/main.css')
+    body
+        header 
+            .nav-bar 
+                nav 
+                    a(href=`/`) Home
+                    a(href=`/about`) About
+        main
+            block content
+    block scripts
+        script(src="/js/main.js")
